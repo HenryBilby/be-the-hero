@@ -1,0 +1,24 @@
+- npm init -y (cria o package.json)
+- npm install express (instala o framework express)
+- npx create-react-app frontend
+- cd frontend
+- npm start
+- npm install nodemon -D
+- npm install knex --save
+- npm install sqlite3 --save
+- npx knex init
+- npx knex migrate:make create_ongs //Cria a migration de nome create_ongs
+- npx knex migrate:latest //Cria as tabelas das migrations no banco de dados
+- npm install cors
+
+Para Incluir o emmet
+- Acessar o Preferences Settings(ctrl+shift+p), incluir as linhas:
+    "emmet.syntaxProfiles": {"javascript": "jsx"},
+    "emmet.includeLanguages": {"javascript": "javascriptreact"}
+ 
+- npm install react-icons
+
+Instalar rotas dentro do react
+- npm install react-router-dom
+
+- npm install axios
